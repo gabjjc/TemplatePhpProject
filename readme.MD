@@ -3,10 +3,10 @@
 ## Configuraciones iniciales
 - Configuración de Base de datos: /config/DB.php
 ```
-$mysqli = new mysqli(   'peditucarta.com',
-                                'pedituca_admin',
-                                'manolo11',
-                                'pedituca_app');
+$mysqli = new mysqli(   'host',
+                        'usuario',
+                        'password',
+                        'BD');
 ```
 
 - Configuración de token: /config/config.php
