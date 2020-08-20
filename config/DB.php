@@ -4,10 +4,10 @@ class DB
 {
     public static function connexion()
     {
-        $mysqli = new mysqli(   'peditucarta.com',
-                                'pedituca_admin',
-                                'manolo11',
-                                'pedituca_app');
+        $mysqli = new mysqli(   '*',
+                                '*',
+                                '*',
+                                '*');
 
         if (!$mysqli) {
             echo "Error: No se pudo conectar a MySQL." . PHP_EOL;
